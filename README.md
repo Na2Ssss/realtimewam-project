@@ -1,23 +1,11 @@
-# RealtimeWAM project website
+# RealtimeWAM project page redirect
 
-Public project page for **RealtimeWAM: How Fast Can I Run My World Action Model?**
+The official website is now **https://realtimewam.github.io/**.
 
-- Website: https://na2ssss.github.io/realtimewam-project/
+- Website source: https://github.com/RealtimeWAM/realtimewam.github.io
 - Paper: https://arxiv.org/abs/2610.10079
 - Code: https://github.com/Na2Ssss/RealtimeWAM
 
-The page includes authors, robot demonstrations, paper results, the OpenWAM code release and a BibTeX citation. The anonymous project website is maintained separately.
+This repository keeps the previous public website address working by redirecting visitors to the organization website. JavaScript preserves query strings and section anchors; a meta refresh and a visible link also work without JavaScript. Existing assets remain available for old direct links.
 
-## Preview
-
-```bash
-python3 -m http.server 8000
-```
-
-Open `http://localhost:8000/`. This is a static website: no package installation or build step is required. Fonts, figures and videos are served locally; paper links point to arXiv. Results switch between backbones through native radio inputs and CSS, including when JavaScript is disabled.
-
-## Publish
-
-GitHub Pages serves the root of the `main` branch. Push changes to `main` to update the public page. `.nojekyll` disables Jekyll processing.
-
-Paper results cover FastWAM and OpenWAM. The linked code release currently implements the three RealtimeWAM components for OpenWAM.
+GitHub Pages serves the root of `main`. Edit the organization website repository to change the project page. The anonymous project website is maintained separately.
